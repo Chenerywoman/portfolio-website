@@ -3,8 +3,8 @@ body {
     text-align: center;
     color: #014c7a;
     margin: 0;
-    font-family: 'Source Code Pro Regular 400', monospace;
-    padding-bottom: 50px;
+    font-family: 'Oswald Light 300', sans-serif;
+    padding-bottom: 65px;
 }
 
 
@@ -17,26 +17,26 @@ body {
 }
 
 h1{
+    margin-top: 50px;
     color: #457B9D;
-    font-family: 'Source Code Pro Black 900', monospace;
+    font-family: 'Oswald Bold 700', sans-serif;
 }
 
 h2{
-    font-family: 'Source Code Pro Bold 700', monospace;
+    font-family: 'Oswald Semi-bold 600', sans-serif;
 }
 
 h3{
-    font-family: 'Source Code Pro Semi-bold 600', monospace;
+    font-family: 'Oswald Medium 500', sans-serif;
 }
 
 h4{
-    font-family: 'Source Code Pro Medium 400', monospace;
+    font-family: 'Oswald Regular 400', sans-serif;
 }
 
 
 .sub-heading{
     margin-top: 60px;
-    /* color: #457B9D; */
 }
 
 .container{
@@ -53,7 +53,7 @@ h4{
 }
 
 .skills, .background {
-    width: 80%;
+    width: 50%;
     background-color: #457B9D;
     padding: 40px 0 40px 0;
 }
@@ -83,13 +83,13 @@ ul.legal li {
 }
 
 ul.languages li {
-    list-style: none;
+    list-style-type: none;
     text-align: left;
 
 }
 
 .project-list{
-    width: 85%;
+    width: 75%;
 }
 
 .project{
@@ -132,7 +132,7 @@ ul.languages li {
 }
 
 footer{
-    background-color: #457B9D;
+    background-color: #A8DADC;
     margin:0;
     position: fixed;
     bottom: 0;
@@ -140,9 +140,14 @@ footer{
     justify-content:space-evenly;
 }
 
+footer ul{
+    padding: 0;
+    margin:0;
+}
+
 footer ul li {
     list-style-type: none;
-    padding: 10px 100px;
+    padding: 15px 100px;
     height: 30px;
 }
 
@@ -151,7 +156,7 @@ footer ul li {
 }
 
 #github:visited .fa-github-square{
-    color: #A8DADC;
+    color:  #457B9D;
 }
 
 #linkedin:link .fa-linkedin{
@@ -159,7 +164,205 @@ footer ul li {
 }
 
 #linkedin:visited .fa-linkedin{
-    color: #A8DADC;
+    color:  #457B9D;
+}
+
+/* iPad Pro (landscape) ----------- */
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : landscape) {
+
+    .description{
+        width: 80%;
+        margin: 30px auto;
+    }
+    
+    .skills, .background {
+        width: 80%;
+        padding: 40px 0 40px 0;
+    }
+    
+    .transferable, .returning, .experience {
+        width: 80%;
+        padding: 20px;
+    }
+    
+    .project-list{
+        width: 90%;
+    }
+
+    .red, .blue{
+        margin: 15px 20px;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .description{
+        width: 80%;
+        margin: 30px auto;
+    }
+    
+    .skills, .background {
+        width: 80%;
+        padding: 40px 0 40px 0;
+    }
+    
+    .transferable, .returning, .experience {
+        width: 80%;
+        padding: 20px;
+    }
+    
+    .project-list{
+        width: 90%;
+    }
+
+    .red, .blue{
+        margin: 15px 20px;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+    .description{
+        width: 80%;
+        margin: 30px auto;
+    }
+    
+    .skills, .background {
+        width: 80%;
+        padding: 40px 0 40px 0;
+    }
+    
+    .transferable, .returning, .experience {
+        width: 80%;
+        padding: 20px;
+    }
+    
+    .project-list{
+        width: 90%;
+    }
+
+    .red, .blue{
+        margin: 15px 20px;
+    }
+
+
+}
+
+/* smaller tablets (landscape) ----------- */
+@media only screen and (min-device-width: 501px) and (max-device-width: 767px) and (orientation: landscape) {
+  
+    .description{
+        width: 80%;
+        margin: 30px auto;
+    }
+    
+    .skills, .background {
+        width: 80%;
+        padding: 40px 0 40px 0;
+    }
+    
+    .transferable, .returning, .experience {
+        width: 80%;
+        padding: 20px;
+    }
+    
+    .project-list{
+        width: 90%;
+    }
+
+    .red, .blue{
+        margin: 15px 20px;
+    }
+
 }
 
 
+/* smaller tablets (portrait) ----------- */
+@media only screen and (min-device-width: 501px) and (max-device-width: 767px) and (orientation: portrait) {
+    
+    .description{
+        width: 80%;
+        margin: 30px auto;
+    }
+    
+    .skills, .background {
+        width: 80%;
+        padding: 40px 0 40px 0;
+    }
+    
+    .transferable, .returning, .experience {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .project-list{
+        width: 90%;
+    }
+
+    .red, .blue{
+        margin: 15px 20px;
+    }
+
+}    
+
+/* phones */
+@media only screen and (max-width: 500px) {
+
+    .description{
+        width: 90%;
+        margin: 30px auto;
+    }
+    
+    .skills, .background {
+        width: 90%;
+        padding: 40px 0 40px 0;
+    }
+    
+    .transferable, .returning, .experience {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .project-list{
+        width: 90%;
+    }
+
+    .red, .blue{
+        margin: 15px 20px;
+    }
+
+    footer{
+        justify-content:space-evenly;
+        padding:0px;
+    }
+    
+    footer ul li {
+        padding: 0px 20px;
+        height: 30px;
+    }
+
+    #github .fa-github-square{
+        font-size: 2em;
+        padding-right: 30px;
+    }
+
+    #linkedin .fa-linkedin{
+        font-size: 2em;
+        padding-left: 30px;
+    }
+}
+
+/* small phones */
+@media only screen and (max-width: 350px) {
+
+    /* ul.languages li {
+        
+        width: 70%;
+    
+    } */
+
+    .front-end, .back-end{
+        width: 60%;
+    }
+}
