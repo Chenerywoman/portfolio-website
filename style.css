@@ -64,6 +64,18 @@ h4{
     padding: 20px;
 }
 
+.trainers{
+    text-decoration: none;
+}
+
+.trainers:link{
+    color:  #E63946;
+}
+
+.trainers:visited{
+    color:  #F7EDE2;
+}
+
 ul.legal{
     margin-top: 0;
 }
