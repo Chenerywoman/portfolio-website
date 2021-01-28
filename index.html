@@ -3,26 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
-    <style>
-        body {background-color: #F7EDE2;
-        text-align: center}
-        
-    </style>
-
+    <link rel="stylesheet" href="./style.css">
+    <title>Rachel Chenery</title>
 </head>
-<body></body>
+<body>
     <h1>Rachel Chenery</h1>
-    <h2>Junior Full Stack Developer</h2>
-    <i src="" alt="picture of Rachel Chenery"></i>
-    <p>Rachel is a modern languages graduate and former solicitor who took the plunge to learn coding and loved it. add wording from my CV here.  </p>
+    <h2>Portfolio website</h2>
+    <img id="Rachel_pic" src="./Rachel_photo_cropped.jpg" alt="Rachel's picture">
+    
+    
+    <p class="description">I am a developer with commercial experience and client-facing skills from my previous career as a solicitor.  I love learning new skills, understanding problems and working out solutions for end users. </p>
 
-    <div className="skills container">
-        <div className="front-end container">
-            <h3>Front End</h3>
+    <h3 class="sub-heading">Experience</h3>
+    <p class="description">Most recently I worked as a junior developer in a large financial services firm.  I worked with senior developers finding and fixing bugs in various C# and VB repositories, writing tests and SQL queries. I learnt coding on training courses with TechReturners, Northcoders and Code Nation, as well as various online courses. </p>
+    <p class="description"> Prior to changing career, I worked for in the legal profession as a private client solicitor.  My role involved advising clients, drafting legal documents and managing a caseload of client work. Before qualifying as a solicitor, I had various roles including: Fundraising Manager for an education charity; European Projects worker; au pair in France... </p>
+
+    <h3 class="sub-heading">Why I want to return to Tech</h3>
+    <p class="description">I was made furloughed and made redundant in 2020, during the Covid-19 pandemic. I am keen to continue my career in tech and would love to work for an organisation with a supportive culture and Growth Mindset.  I am passionate about encouraging more girls into trying coding, so I set up a girls' code club at my daughter's primary school last year.  The more I learn, the more I want to show girls that learning to code can be fun and creative.</p>
+
+    <h3 class="sub-heading">Transferable Skills</h3>
+    <div class="skills container">
+        <div class="transferable container">
             <div>
-                <h4>experience of:</h4>
-                <ul>
+                <h4>Transferable skills from my previous career</h4>
+                <ul class="legal">
+                    <li>managing a caseload of work to ensure completion to deadlines</li>
+                    <li>interviewing and advising clients</li>
+                    <li>analysing complex issues and advising on solutions</li>
+                    <li>supporting the development of junior staff</li>
+                    <li>researching solutions to particular issues</li>
+                    <li>markeing and business development with other professionals</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="sub-heading">Technical Skills</h3>
+    <div class="skills container">
+        <div class="front-end container">
+            <div>
+                <h4>Front end experience</h4>
+                <ul class="experience">
                     <li>CSS</li>
                     <li>HTML</li>
                     <li>Javascript</li>
@@ -30,38 +51,33 @@
                 </ul>
             </div>
         </div>
-        <div className="back-end container">
-            <h3>Back End</h3>
+        <div class="back-end container">
             <div>
-                <h4>experience of:</h4>
-                <ul>
+                <h4>Back end experience</h4>
+                <ul class="experience">
                     <li>Node.js</li>
                     <li>C#</li>
                     <li>Express</li>
+                    <li>MongoDB</li>
+                    <li>SQL</li>
                 </ul>
             </div>
         </div>
     </div>
 
-    <div className="projects container">
-        <div>To Do List</div>
-        <div>Top Trumps</div>
-        <div>Zen Garden</div>
-        <div>Calculator</div>
-    </div>
-
-    <div className= "contact container">
-        <img src="" alt="">
-        <h3>Get in touch</h3>
-        <form onSubmit="">  
-            <label for="email">email:</label>
-            <input type="text" name="email" value="">
-            <label for="message">message:</label>
-            <input type="text" name="message" value="">
-            <button type="submit" value="Submit">submit</button>
-        </form>
-        
-
+    <h3 class="sub-heading">Projects</h3>
+    <div class="project-list container">
+        <div class="project red"><a href="https://github.com/Chenerywoman/weather-app" ><p>Weather App</p></a></div>
+        <div class="project blue"><a href="https://github.com/Chenerywoman/users-database-project" ><p>User database website</p></a></div>
+        <div class="project red"><a href="https://github.com/Chenerywoman/to-do-list" ><p>To Do List</p></a></div>
+        <div class="project blue"><a href="https://github.com/Chenerywoman/Top_Trumps_game"><p>Top Trumps</p></a></div>
+        <div class="project red"><p>Zen Garden</p></div>
+        <div class="project blue"><a href="https://github.com/Chenerywoman/Dice_Project"><p>Dice Game</p></a></div>
+        <div class="project red"><a href="https://github.com/Chenerywoman/button-challenge"><p>Button Challenge</p></a></div>
+        <div class="project blue"><a href=""><p>NC News frontend</p></a></div>
+        <div class="project red"><a href=""><p>NC News backend</p></a></div>
+        <div class="project blue"><a href=""><p>Spelling Bee frontend</p></a></div>
+        <div class="project red"><a href=""><p>Spelling Bee backend</p></a></div>
     </div>
 
 </body>

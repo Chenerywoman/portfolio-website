@@ -1,0 +1,99 @@
+body {
+    background-color: #F7EDE2;
+    text-align: center;
+    color: #014c7a
+}
+
+
+#Rachel_pic{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #457B9D; 
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px 2px #566874;
+}
+
+h1{
+    color: #457B9D;
+}
+
+.sub-heading{
+    /* color: #457B9D; */
+}
+
+.description{
+    width: 75%;
+    margin: 30px auto;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px auto;
+    justify-content: center;
+}
+
+.skills{
+    width: 80%;
+    background-color: #457B9D;
+    padding: 40px 0 40px 0;
+}
+
+ul.legal{
+    margin-top: 0;
+}
+
+ul.legal li {
+    list-style: none;
+    text-align: center;
+}
+
+.transferable{
+    width: 80%;
+    background-color: #A8DADC;
+    border: 1px solid black;
+}
+
+.front-end{
+    width: 40%;
+    background-color: #A8DADC;
+}
+
+.back-end{
+    width: 40%;
+    background-color: #E63946;
+}
+
+ul.experience li {
+    list-style: none;
+    text-align: left;
+
+}
+
+.project-list{
+    width: 85%;
+}
+
+.project{
+    width: 175px;
+    height: 75px;
+}
+
+.project p{
+    margin-top: 30px;
+}
+
+.red{
+    background-color: #E63946;
+    margin: 15px 30px;
+}
+
+.blue{
+    background-color: #457B9D;
+    color: #A8DADC;
+    margin: 15px 30px;
+}
+
+
