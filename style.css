@@ -1,7 +1,10 @@
 body {
     background-color: #F7EDE2;
     text-align: center;
-    color: #014c7a
+    color: #014c7a;
+    margin: 0;
+    font-family: 'Source Code Pro Regular 400', monospace;
+    padding-bottom: 50px;
 }
 
 
@@ -15,9 +18,24 @@ body {
 
 h1{
     color: #457B9D;
+    font-family: 'Source Code Pro Black 900', monospace;
 }
 
+h2{
+    font-family: 'Source Code Pro Bold 700', monospace;
+}
+
+h3{
+    font-family: 'Source Code Pro Semi-bold 600', monospace;
+}
+
+h4{
+    font-family: 'Source Code Pro Medium 400', monospace;
+}
+
+
 .sub-heading{
+    margin-top: 60px;
     /* color: #457B9D; */
 }
 
@@ -111,6 +129,37 @@ ul.languages li {
 
 .blue a:visited{
     color: #E63946;
+}
+
+footer{
+    background-color: #457B9D;
+    margin:0;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    justify-content:space-evenly;
+}
+
+footer ul li {
+    list-style-type: none;
+    padding: 10px 100px;
+    height: 30px;
+}
+
+#github:link .fa-github-square{
+    color: #E63946;
+}
+
+#github:visited .fa-github-square{
+    color: #A8DADC;
+}
+
+#linkedin:link .fa-linkedin{
+    color: #E63946;
+}
+
+#linkedin:visited .fa-linkedin{
+    color: #A8DADC;
 }
 
 
