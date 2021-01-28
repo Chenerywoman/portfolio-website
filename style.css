@@ -21,12 +21,6 @@ h1{
     /* color: #457B9D; */
 }
 
-.description{
-    width: 75%;
-    margin: 30px auto;
-}
-
-
 .container{
     display: flex;
     flex-direction: row;
@@ -35,10 +29,21 @@ h1{
     justify-content: center;
 }
 
-.skills{
+.description{
+    width: 80%;
+    margin: 30px auto;
+}
+
+.skills, .background {
     width: 80%;
     background-color: #457B9D;
     padding: 40px 0 40px 0;
+}
+
+.transferable, .returning, .experience {
+    width: 80%;
+    background-color: #A8DADC;
+    padding: 20px;
 }
 
 ul.legal{
@@ -46,14 +51,7 @@ ul.legal{
 }
 
 ul.legal li {
-    list-style: none;
-    text-align: center;
-}
-
-.transferable{
-    width: 80%;
-    background-color: #A8DADC;
-    border: 1px solid black;
+    text-align: left;
 }
 
 .front-end{
@@ -66,7 +64,7 @@ ul.legal li {
     background-color: #E63946;
 }
 
-ul.experience li {
+ul.languages li {
     list-style: none;
     text-align: left;
 
@@ -85,15 +83,34 @@ ul.experience li {
     margin-top: 30px;
 }
 
+.project a {
+    text-decoration: none;
+}
+
 .red{
     background-color: #E63946;
     margin: 15px 30px;
 }
 
-.blue{
-    background-color: #457B9D;
+.red a:link{
+    color: #014c7a;
+}
+
+.red a:visited{
     color: #A8DADC;
+}
+
+.blue{
+    background-color: #A8DADC;
     margin: 15px 30px;
+}
+
+.blue a:link{
+    color: #014c7a;
+}
+
+.blue a:visited{
+    color: #E63946;
 }
 
 
